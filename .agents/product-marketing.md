@@ -75,10 +75,10 @@ Items marked **[ASSUMPTION]** are not confirmed by the owner. Do not rely on the
 |------|---------|
 | AI Guide | The chat guide |
 | Slip | A time the user vaped; logged in slip tracking |
-| Turn | One message to the AI Guide and its reply [ASSUMPTION] |
+| Turn | One message to the AI Guide. In public copy say "message", not "turn" |
 
 ## Pricing wording
-"Free for life" is risky: the AI Guide becomes paid after 20 turns, and EU consumer rules treat a "free" claim as misleading if the paid part isn't clear. Safer: "Free to use. AI Guide: 20 turns free, then 12.99/month or 39.99/year." Apple also asks that paid parts are disclosed in the listing.
+"Free for life" is risky: the AI Guide becomes paid after 20 turns, and EU consumer rules treat a "free" claim as misleading if the paid part isn't clear. Safer: "Free to use. AI Guide: 20 free messages, then 12.99/month or 39.99/year." Apple also asks that paid parts are disclosed in the listing.
 
 ## Brand Voice
 [Not yet defined. Build from the developer's own writing, not adjectives.]
