@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "skills": {
+    "aso": {
+      "source": "coreyhaines31/marketingskills",
+      "commit": "2bf95edb4ebd37198ab7fd18b99ba95c2145ec64",
+      "sourceType": "github",
+      "skillPath": "skills/aso/SKILL.md",
+      "computedHash": "2a1c92aea59389a5a7379cd07360ce1dfd3de5765c19424ea293e7e581c7ee68",
+      "installMode": "copy"
+    },
+    "marketing-council": {
+      "source": "coreyhaines31/marketingskills",
+      "commit": "2bf95edb4ebd37198ab7fd18b99ba95c2145ec64",
+      "sourceType": "github",
+      "skillPath": "skills/marketing-council/SKILL.md",
+      "computedHash": "55a4da1a4d3b0c7c3686d63af8b57ac3f7306e1ac306ca1a274b9bc6c74126b0",
+      "installMode": "copy"
+    },
+    "product-marketing": {
+      "source": "coreyhaines31/marketingskills",
+      "commit": "2bf95edb4ebd37198ab7fd18b99ba95c2145ec64",
+      "sourceType": "github",
+      "skillPath": "skills/product-marketing/SKILL.md",
+      "computedHash": "2b7f80ab415280e3e0a0bcc112af8e24059169642c70fb36e18e44a79f80f505",
+      "installMode": "copy"
+    }
+  }
+}
