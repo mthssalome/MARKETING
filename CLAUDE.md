@@ -6,7 +6,7 @@ Goal: cut token cost without lowering output quality. The lead plans, briefs and
 
 - Work only on `claude/delegation-policy`. Never merge or push to `main`.
 
-## Hard limits for the app (Atrest Recovery)
+## Hard limits for the app (Atrest: Quit Vaping)
 
 - Users stay anonymous, always.
 - No health or outcome claims.
@@ -45,7 +45,7 @@ Fable is never the default. Use it only when a task matches tier 3 or a lower ti
 - Delegate to tier 1: competitor and market research, pulling customer language, variant generation, brief-compliance checks.
 - Keep on the lead: positioning, voice, headlines and hooks, and final copy. Cheaper models write flatter, more generic copy.
 - Use `marketing-council` for decisions with real trade-offs.
-- Council: run 3-5 advisors by default. Default bench for Atrest Recovery: Dunford, Sutherland, Godin and Sharp. Seat Hormozi only as the dissenter.
+- Council: run 3-5 advisors by default. Default bench for Atrest: Dunford, Sutherland, Godin and Sharp. Seat Hormozi only as the dissenter.
 - Council delegation: research per advisor may go to tier 1. The advisors' takes, the disagreement map and the synthesis stay with the lead.
 - Workers that extract customer language return only verbatim text with a source link. Never paraphrased or invented quotes.
 
