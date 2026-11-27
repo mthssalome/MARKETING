@@ -1,6 +1,6 @@
 # Product Marketing Context
 
-**Document version:** v2
+**Document version:** v3
 **Last updated:** 2026-11-27
 
 Items marked **[ASSUMPTION]** are not confirmed by the owner. Do not rely on them in public copy until confirmed. Open questions are listed at the bottom.
@@ -23,7 +23,7 @@ Items marked **[ASSUMPTION]** are not confirmed by the owner. Do not rely on the
 - **Slip tracking** — log slips.
 **App Store category:** Health & Fitness. [ASSUMPTION — owner said "Health and Well Being"; Health & Fitness is the closest App Store category.]
 **Product type:** Consumer mobile app, iOS only.
-**Business model:** Free to download and use. The AI Guide is free for the first 20 turns, then needs a subscription: 12.99 per month or 39.99 per year. [ASSUMPTION — prices are in euros; the 20 turns are a one-time lifetime allowance, not per month.]
+**Business model:** Free to download and use. The AI Guide is free for the first 20 turns, then needs a subscription: 12.99 per month or 39.99 per year. The 20 free turns are a one-time lifetime allowance. [ASSUMPTION — prices are in euros.]
 **Maker:** One developer, based in Belgium. DSA trader status is set up.
 
 ## Data (source for all privacy wording)
@@ -31,7 +31,7 @@ Items marked **[ASSUMPTION]** are not confirmed by the owner. Do not rely on the
 - AI Guide messages go through the developer's own server to an AI model made by Anthropic and run by Amazon Web Services. Both are in the EU.
 - Before the first message, a screen explains this and asks for consent. Nothing is sent until the user taps "Allow and send". It can be turned off in Settings. When it's off, nothing typed in the guide leaves the phone.
 - The server keeps no messages. The AI is set to keep nothing. Conversations are stored only on the phone.
-- [ASSUMPTION — voice journal audio and transcription stay on the phone.]
+- Voice journal audio and transcription stay on the phone.
 - [ASSUMPTION — no analytics, crash-reporting or ad SDK in the app.]
 - Subscriptions run through Apple. The developer gets no personal payment data.
 
@@ -110,13 +110,13 @@ These are areas to check, not legal advice. Each needs verifying against the cur
 | 2026-11-27 | Name is "Atrest: Quit Vaping", not "Atrest Recovery" | Owner decision | All copy | active |
 
 ## Open questions for the owner
-1. Prices: euros? Are the 20 free turns lifetime or per month?
-2. Does voice journaling (audio and transcription) stay fully on the phone?
-3. Any analytics, crash-reporting or ad SDK in the app?
-4. Can you share the submitted subtitle, keywords, description and screenshot text? They're locked once approved, so they're worth checking against the hard limits now.
-5. Which EU storefronts are live: all, or a chosen list?
+1. Prices: euros?
+2. Any analytics, crash-reporting or ad SDK in the app?
+3. Can you share the submitted subtitle, keywords, description and screenshot text? They're locked once approved, so they're worth checking against the hard limits now.
+4. Which EU storefronts are live: all, or a chosen list?
 
 ## Changelog
 *Newest first. One line per revision: what changed and why.*
+- v3 (2026-11-27) — Confirmed: 20 free AI turns are lifetime; voice journal stays on the phone.
 - v2 (2026-11-27) — Owner's facts: real name, launch now (in review), pricing, category, languages, 18+, data flow, DSA done, features. Added Data and Pricing wording sections; flagged "zero data", "free for life" and "unique" as risky claims.
 - v1 (2026-11-27) — Initial context from owner's facts; gaps marked as assumptions with open questions.
