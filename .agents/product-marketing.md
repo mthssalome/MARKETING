@@ -1,7 +1,7 @@
 # Product Marketing Context
 
-**Document version:** v3
-**Last updated:** 2026-11-27
+**Document version:** v4
+**Last updated:** 2026-11-28
 
 Items marked **[ASSUMPTION]** are not confirmed by the owner. Do not rely on them in public copy until confirmed. Open questions are listed at the bottom.
 
@@ -15,12 +15,16 @@ Items marked **[ASSUMPTION]** are not confirmed by the owner. Do not rely on the
 ## Product Overview
 **App Store name:** Atrest: Quit Vaping
 **One-liner:** An iOS app for adults who want to quit vaping, with no account and conversations kept only on the phone.
-**What it does (features):**
-- **AI Guide** — a chat guide. Optional, see "Data" below.
-- **Craving game** — keeps fingers busy during a craving.
-- **Virtual walk** — a walk through a fantastical landscape, as a distraction.
-- **Journal** — voice and text.
-- **Slip tracking** — log slips.
+**What it does (features, as in the submitted App Store listing, 2026-11-28):**
+- **Craving ritual** — three minutes, no input needed; a tree grows, a different tree every time. Keep it or share it.
+- **Raoul** — a cartoon dog in the Guide tab; AI writes his replies (the "AI Guide"). The app says it's AI before you type.
+- **Ghost of your old vape** — short, sulky messages that fade as the days go by. You can't reply; nothing is scored.
+- **Two clocks** — time since you started, time since your last slip.
+- **Calendar** — mark slips honestly; a slip costs nothing.
+- **Your line** — who you're becoming, in your own words, editable any time.
+- **Notes** — typed or spoken; voice is transcribed on the phone.
+- **No scores, badges or leaderboards** (deliberate).
+[ASSUMPTION — the owner also listed a "game to keep fingers busy" and "a virtual walk in a fantastical landscape to distract". The listing doesn't mention either, and says the ritual "isn't a distraction". Confirm what actually ships.]
 **App Store category:** Health & Fitness. [ASSUMPTION — owner said "Health and Well Being"; Health & Fitness is the closest App Store category.]
 **Product type:** Consumer mobile app, iOS only.
 **Business model:** Free to download and use. The AI Guide is free for the first 20 turns, then needs a subscription: 12.99 per month or 39.99 per year. The 20 free turns are a one-time lifetime allowance. [ASSUMPTION — prices are in euros.]
@@ -32,7 +36,8 @@ Items marked **[ASSUMPTION]** are not confirmed by the owner. Do not rely on the
 - Before the first message, a screen explains this and asks for consent. Nothing is sent until the user taps "Allow and send". It can be turned off in Settings. When it's off, nothing typed in the guide leaves the phone.
 - The server keeps no messages. The AI is set to keep nothing. Conversations are stored only on the phone.
 - Voice journal audio and transcription stay on the phone.
-- [ASSUMPTION — no analytics, crash-reporting or ad SDK in the app.]
+- No analytics, no third-party code in the app (owner's listing). [ASSUMPTION — confirm no crash-reporting SDK either.]
+- Voice notes are transcribed by the phone. [ASSUMPTION — confirm on-device-only speech recognition is forced in code; iOS can otherwise send audio to Apple.]
 - Subscriptions run through Apple. The developer gets no personal payment data.
 
 **How to say it:** describe the facts above. Don't use "zero data" in public copy: messages do leave the phone when the user allows it, so the phrase can be called misleading. Safer: "No account. Your conversations stay on your phone."
@@ -73,7 +78,7 @@ Items marked **[ASSUMPTION]** are not confirmed by the owner. Do not rely on the
 **Glossary:**
 | Term | Meaning |
 |------|---------|
-| AI Guide | The chat guide |
+| AI Guide / Raoul | The chat guide, shown as Raoul, a cartoon dog, in the Guide tab |
 | Slip | A time the user vaped; logged in slip tracking |
 | Turn | One message to the AI Guide. In public copy say "message", not "turn" |
 
@@ -81,7 +86,15 @@ Items marked **[ASSUMPTION]** are not confirmed by the owner. Do not rely on the
 "Free for life" is risky: the AI Guide becomes paid after 20 turns, and EU consumer rules treat a "free" claim as misleading if the paid part isn't clear. Safer: "Free to use. AI Guide: 20 free messages, then 12.99/month or 39.99/year." Apple also asks that paid parts are disclosed in the listing.
 
 ## Brand Voice
-[Not yet defined. Build from the developer's own writing, not adjectives.]
+*[DRAFT — inferred from the owner's own App Store description, 2026-11-28. Owner to confirm.]*
+| Attribute | Means | Doesn't mean | Example line (owner's copy) |
+|-----------|-------|--------------|--------------|
+| Plain and quiet | Short sentences, concrete things, no hype | Cold or clinical | "Both are only numbers." |
+| No judgment | Slips are normal and cost nothing | Pretending slips don't matter | "Logging a slip costs nothing and takes nothing away from you." |
+| User in control | Every choice is optional | Vague or passive | "Keep the tree or don't. Share it or don't." |
+| Honest about limits | Says what the app isn't and what leaves the phone | Legal-sounding | "Atrest is not medical advice, treatment, or a diagnosis of anything." |
+
+**Never use (and why):** scores, streak pressure, "crush it", hype superlatives — the product deliberately has no scores; outcome words (see Customer Language).
 
 ## Proof Points
 None yet. Ratings, reviews and press only once real. No testimonials that describe health outcomes.
@@ -117,6 +130,7 @@ These are areas to check, not legal advice. Each needs verifying against the cur
 
 ## Changelog
 *Newest first. One line per revision: what changed and why.*
+- v4 (2026-11-28) — Features and draft brand voice taken from the owner's submitted App Store listing; flagged game/virtual-walk mismatch and on-device speech check.
 - v3 (2026-11-27) — Confirmed: 20 free AI turns are lifetime; voice journal stays on the phone.
 - v2 (2026-11-27) — Owner's facts: real name, launch now (in review), pricing, category, languages, 18+, data flow, DSA done, features. Added Data and Pricing wording sections; flagged "zero data", "free for life" and "unique" as risky claims.
 - v1 (2026-11-27) — Initial context from owner's facts; gaps marked as assumptions with open questions.
