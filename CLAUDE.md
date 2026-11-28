@@ -48,6 +48,7 @@ Fable is never the default. Use it only when a task matches tier 3 or a lower ti
 - Council: run 3-5 advisors by default. Default bench for Atrest: Dunford, Sutherland, Godin and Sharp. Seat Hormozi only as the dissenter.
 - Council delegation: research per advisor may go to tier 1. The advisors' takes, the disagreement map and the synthesis stay with the lead.
 - Workers that extract customer language return only verbatim text with a source link. Never paraphrased or invented quotes.
+- Web research: don't run it from this session. Write a self-contained brief (see `.agents/research/web-research-brief.md`) for the owner to run in a separate chat, then check the results they paste back.
 
 ## Coding work
 
